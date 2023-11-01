@@ -1,0 +1,2 @@
+Reverse engineer the program
+It can also be brute forced within reasonable time

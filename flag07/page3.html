@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Webpage</title>
+    <style>
+        header {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        .banner {
+            width: 100px;
+            margin: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Page 3</h1>
+        <img src="banner1.jpg" alt="Banner 1" class="banner">
+        <img src="banner2.jpg" alt="Banner 2" class="banner">
+    </header>
+
+    <main>
+
+<div class="navigation">
+    <button onclick="navigateTo('index.html')">Home</button>
+    <button onclick="navigateTo('page2.html')">Page 2</button>
+    <button onclick="navigateTo('page3.html')">Page 3</button>
+</div>
+
+        <button onclick="showAlert()">Click Me!</button>
+        <p>This is content for Page 3.</p>
+        <p>Thanks for visiting!</p>
+    </main>
+
+    <script>
+        function showAlert() {
+            alert('Button was clicked!');
+        }
+    
+function navigateTo(page) {
+    window.location.href = page;
+}
+<!-- flag 3/4: CheapBuc -->
+</script>
+</body>
+</html>
